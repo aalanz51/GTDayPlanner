@@ -1,0 +1,82 @@
+
+body {
+    font-family: 'Questrial';
+    font-size: 22px;
+    line-height: 1;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: #5575af;
+    color: white;
+    border-bottom: 5px dashed white;
+    font-size: 25px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+#display-2{
+    font-size: 40px;
+}
+
+.block {
+    text-align: center;
+    border-radius: 15px;
+}
+
+.row {
+    height: 80px;
+    border-top: 1px solid white;;
+}
+
+.time {
+    background-color: #5575af;
+    padding-top: 27px;
+    border: 1px black solid;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-weight: bold;
+    height: 80px;
+    color: white;
+}
+
+textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: white;
+    padding: 15px;
+}
+
+.past {
+    background-color: #fc8079 ;
+    color: white;
+}
+
+.current {
+    background-color: lightgray;
+    color: white;
+}
+
+.future {
+    background-color: #8ad68a;
+    color: white;
+}
+
+.saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #5575af;
+    color: white;
+}
+
+.saveBtn:hover {
+    background-color: #729cf0;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+
+footer{
+    padding: 30px;
+}
